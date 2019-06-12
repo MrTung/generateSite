@@ -1,0 +1,1883 @@
+/* <!-- 主体样式 --> */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .tm-container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .banner {
+      width: 100%;
+      height: 593px;
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/banner.jpg') no-repeat;
+      background-size: 100%;
+
+    }
+
+
+    .bannerbgc {
+      position: absolute;
+      left: 0;
+      top: 68px;
+      animation: bannerbgcmove 1s ease-out forwards;
+      -webkit-animation: bannerbgcmove 1s ease-out forwards;
+      /* Safari and Chrome */
+    }
+
+    .bannercontent {
+      position: absolute;
+      top: 155px;
+      left: 98px;
+      -webkit-transform: translate(2000px, 0);
+      -moz-transform: translate(2000px, 0);
+      -ms-transform: translate(2000px, 0);
+      -o-transform: translate(2000px, 0);
+      transform: translate(2000px, 0);
+
+      /* animation: solutionmove 2s ease-out forwards;
+      -webkit-animation: solutionmove 2s ease-out forwards; */
+      /* Safari and Chrome */
+    }
+
+    .bannercontent_show {
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      -o-transform: translate(0, 0);
+      transform: translate(0, 0);
+      transition: all 2s;
+    }
+
+    @keyframes solutionmove {
+      from {
+        left: 1920px;
+      }
+
+      to {
+        left: 98px;
+      }
+    }
+
+    @-webkit-keyframes solutionmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: 1920px;
+      }
+
+      to {
+        left: 98px;
+      }
+    }
+
+    @keyframes bannerbgcmove {
+      from {
+        left: -1920px;
+      }
+
+      to {
+        left: 0;
+      }
+    }
+
+    @-webkit-keyframes bannerbgcmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: -1920px;
+      }
+
+      to {
+        left: 0;
+      }
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+      content: "";
+      display: table;
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
+
+    .clearfix {
+      *zoom: 1;
+    }
+
+    img {
+      display: block;
+    }
+
+    .scene {
+      width: 100%;
+      height: 1201px;
+      background: #f0f0f0 url(//resource.toolmall.com/resource/business/activity/hardware_tools/applyscenebgc.png) no-repeat;
+      background-size: 100%;
+    }
+
+    .scenetitle {
+      width: 141px;
+      height: 36px;
+      margin: 0 auto;
+      padding: 32px 0;
+
+    }
+
+    .scenenav {
+      width: 1144px;
+      margin: 0 auto;
+    }
+
+    .scenenav li {
+      float: left;
+      width: 286px;
+      height: 61px;
+      text-align: center;
+      line-height: 61px;
+      color: #fff;
+    }
+
+    .scenenav li a {
+      display: block;
+    }
+
+    .plumbing {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/plumbgc.png') no-repeat;
+    }
+
+    .electric {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/elebgc.png') no-repeat;
+    }
+
+    .gardens {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/gardenbgc.png') no-repeat;
+    }
+
+    .other {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/otherbgc.png') no-repeat;
+    }
+
+    .sceneprd {
+      height: 1040px;
+      position: relative;
+    }
+
+    .hardware {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/sceneprdbgc.png') no-repeat;
+    }
+
+    .eletric_scene {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/elescenebgc.png') no-repeat;
+    }
+
+    .garden_scene {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/gardenscenebgc.png') no-repeat;
+    }
+
+    .other_scene {
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/other_scenebgc.png') no-repeat;
+    }
+
+    .fcatetitle {
+      position: absolute;
+      left: 240px;
+      top: 25px;
+    }
+
+    .titlename {
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .prdname {
+      font-size: 16px;
+      color: #fff;
+      margin-top: 8px;
+    }
+
+    .fl {
+      float: left;
+    }
+
+    .fr {
+      float: right;
+    }
+
+    .w120 {
+      width: 120px;
+    }
+
+    .h90 {
+      height: 90px;
+    }
+
+    .prd-container {
+      width: 236px;
+      height: 122px;
+      position: absolute;
+    }
+
+    dl {
+      text-align: center;
+    }
+
+    .fcateprd {
+      left: 173px;
+      top: 85px;
+    }
+
+    .fcateprd dl {
+      /* width:90px; */
+      height: 123px;
+      text-align: center;
+    }
+
+    .fcateprdimg {
+      width: 90px;
+      margin: 0 auto;
+    }
+
+    .scateprd {
+      top: 85px;
+      right: 258px;
+    }
+
+    .scatetitle {
+      position: absolute;
+      top: 25px;
+      right: 326px;
+    }
+
+    .small_container {
+      width: 128px;
+      height: 128px;
+      border-radius: 10;
+      background: #fff;
+    }
+
+    .sfcateprd {
+      position: absolute;
+      right: 42px;
+      top: 67px;
+    }
+
+    .sfcatetitle {
+      position: absolute;
+      right: 67px;
+      top: 25px;
+    }
+
+    .sscateprd {
+      position: absolute;
+      right: 42px;
+      bottom: 266px;
+    }
+
+    .sscatetitle {
+      position: absolute;
+      right: 47px;
+      bottom: 401px;
+    }
+
+    .stcateprd {
+      position: absolute;
+      left: 176px;
+      bottom: 95px;
+    }
+
+    .stcatetitle {
+      position: absolute;
+      left: 200px;
+      bottom: 231px;
+    }
+
+    .small-container {
+      width: 128px;
+      height: 128px;
+    }
+
+    .w128 {
+      width: 128px;
+    }
+
+    .h128 {
+      height: 128px;
+    }
+
+    .ftcatetitle {
+      position: absolute;
+      right: 266px;
+      top: 253px;
+    }
+
+    .ftcateprd {
+      position: absolute;
+      top: 311px;
+      right: 188px;
+    }
+
+    .fvcatetitle {
+      position: absolute;
+      bottom: 497px;
+      left: 189px;
+    }
+
+    .fvcateprd {
+      position: absolute;
+      bottom: 338px;
+      left: 130px;
+    }
+
+    .sxcatetitle {
+      position: absolute;
+      bottom: 231px;
+      right: 450px;
+    }
+
+    .sxcateprd {
+      position: absolute;
+      bottom: 76px;
+      right: 387px;
+    }
+
+    .sprd-container {
+      width: 128px;
+      height: 128px;
+      border-radius: 20px;
+    }
+
+    .clumptitle {
+      position: absolute;
+      top: 49px;
+      left: 510px;
+    }
+
+    .remake {
+      width: 130px;
+      height: 130px;
+      position: absolute;
+      left: 491px;
+      top: 86px;
+      animation: remakemove 2s ease forwards;
+      -webkit-animation: remakemove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes remakemove {
+      from {
+        top: 86px;
+      }
+
+      50% {
+        top: 98px;
+      }
+
+      to {
+        top: 86px;
+      }
+    }
+
+    @-webkit-keyframes solutionmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        top: 90px;
+      }
+
+      50% {
+        top: 94px;
+      }
+
+      to {
+        top: 86px;
+      }
+    }
+
+    .otip {
+      width: 129px;
+      height: 129px;
+      position: absolute;
+      left: 186px;
+      bottom: 543px;
+      animation: otipmove 1.8s ease forwards;
+      -webkit-animation: otipmove 1.8s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes otipmove {
+      from {
+        left: 176px;
+      }
+
+      50% {
+        left: 186px;
+      }
+
+      to {
+        left: 176px;
+      }
+    }
+
+    @-webkit-keyframes otipmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: 176px;
+      }
+
+      50% {
+        left: 186px;
+      }
+
+      to {
+        left: 176px;
+      }
+    }
+
+
+
+    .scenenav li {
+
+      font-size: 26px;
+      /* font-weight:bold; */
+    }
+
+    .scenenav li a {
+      color: #fff;
+    }
+
+    .scenenav li .scenenavactive {
+      color: #000;
+    }
+
+    .stip {
+      height: 130px;
+      position: absolute;
+      left: 593px;
+      top: 315px;
+      animation: stipmovenew 1.8s ease-in alternate;
+      -webkit-animation: stipmovenew 1.8s ease-in alternate;
+      animation-iteration-count: infinite;
+
+    }
+
+    @keyframes stipmovenew {
+      from {
+        top: 315px;
+      }
+
+      50% {
+        top: 325px;
+      }
+
+      to {
+        top: 315px;
+      }
+    }
+
+    @-webkit-keyframes stipmovenew
+
+    /* Safari and Chrome */
+      {
+      from {
+        top: 315px;
+      }
+
+      50% {
+        top: 325px;
+      }
+
+      to {
+        top: 315px;
+      }
+    }
+
+    .logo {
+      width: 170px;
+      height: 170px;
+      position: absolute;
+      right: 371px;
+      bottom: 310px;
+
+    }
+
+    .logo:hover {
+      animation: ele_logomove 2s ease forwards;
+      -webkit-animation: ele_logomove 2s ease forwards;
+    }
+
+    .ftip {
+      width: 112px;
+      height: 112px;
+      position: absolute;
+      left: 40px;
+      bottom: 99px;
+      animation: ftipmove 2s ease forwards;
+      -webkit-animation: ftipmove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes ftipmove {
+      from {
+        left: 40px;
+      }
+
+      50% {
+        left: 60px;
+      }
+
+      to {
+        left: 40px;
+      }
+    }
+
+    @-webkit-keyframes stipmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: 40px;
+      }
+
+      50% {
+        left: 60px;
+      }
+
+      to {
+        left: 40px;
+      }
+    }
+
+
+    .fvtip {
+      width: 116px;
+      height: 118px;
+      position: absolute;
+      right: 209px;
+      bottom: 60px;
+      animation: fvtipmove 2s ease forwards;
+      -webkit-animation: fvtipmove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes fvtipmove {
+      from {
+        bottom: 60px;
+      }
+
+      50% {
+        bottom: 70px;
+      }
+
+      to {
+        bottom: 60px;
+      }
+    }
+
+    @-webkit-keyframes fvtipmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        bottom: 60px;
+      }
+
+      50% {
+        bottom: 70px;
+      }
+
+      to {
+        bottom: 60px;
+      }
+    }
+
+    .scenenav li .plumbactive {
+      color: #000;
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/plumbactive.png');
+    }
+
+    .scenenav li .eleactive {
+      color: #000;
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/eleactive.png')
+    }
+
+    .scenenav li .gardenactive {
+      color: #000;
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/gardensctive.png')
+    }
+
+    .scenenav li .otheractive {
+      color: #000;
+      background: url('//resource.toolmall.com/resource/business/activity/hardware_tools/otheractive.png')
+    }
+
+    /* ==================电工工具========================= */
+    a {
+      display: block;
+    }
+
+    li {
+      text-align: center;
+    }
+
+    .eletric_scene {}
+
+    .necessarytitle {
+      position: absolute;
+      left: 364px;
+      top: 22px;
+    }
+
+    .necessaryproduct {
+      width: 507px;
+      height: 124px;
+      position: absolute;
+      left: 182px;
+      top: 85px;
+    }
+
+    .necessaryproduct li {
+      float: left;
+      margin-right: 49px;
+    }
+
+    .necessaryproduct li:last-child {
+      margin-right: 0;
+    }
+
+    .clampcate {
+      width: 132px;
+      height: 161px;
+      right: 111px;
+      top: 68px;
+      position: absolute;
+      text-align: center;
+    }
+
+    .screwdriver {
+      width: 130px;
+      height: 164px;
+      position: absolute;
+      top: 320px;
+      left: 197px;
+      text-align: center;
+    }
+
+    .eletip {
+      width: 93px;
+      height: 93px;
+      position: absolute;
+      left: 532px;
+      top: 337px;
+      animation: eletipmove 2s ease alternate;
+      -webkit-animation: eletipmove 2s ease alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes eletipmove {
+      from {
+        top: 337px;
+      }
+
+      50% {
+        top: 315px;
+      }
+
+      to {
+        top: 337px;
+      }
+    }
+
+    @-webkit-keyframes eletipmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        top: 337px;
+      }
+
+      50% {
+        top: 315px;
+      }
+
+      to {
+        top: 337px;
+      }
+    }
+
+    .testcate {
+      width: 374px;
+      height: 122px;
+      position: absolute;
+      right: 118px;
+      top: 327px;
+    }
+
+    .testcate li {
+      float: left;
+      margin-right: 52px;
+    }
+
+    .testcate li:last-child {
+      margin-right: 0;
+    }
+
+    .necessaryeletitle {
+      position: absolute;
+      right: 235px;
+      top: 263px;
+    }
+
+    .lamptitle {
+      position: absolute;
+      left: 258px;
+      bottom: 491px;
+
+    }
+
+    .lamp_tool {
+      width: 375px;
+      height: 90px;
+      position: absolute;
+      left: 114px;
+      bottom: 364px;
+    }
+
+    .lamp_tool li {
+      float: left;
+      margin-right: 52px;
+
+    }
+
+    .lamp_tool li:last-child {
+      margin-right: 0;
+    }
+
+    .ele_logo {
+      width: 163px;
+      height: 163px;
+      position: absolute;
+      right: 346px;
+      bottom: 322px;
+
+      /* transform:rotate(360deg); */
+
+    }
+
+    .ele_logo:hover {
+      animation: ele_logomove 2s ease forwards;
+      -webkit-animation: ele_logomove 2s ease forwards;
+    }
+
+    @keyframes ele_logomove {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @-webkit-keyframes ele_logomove {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+
+    }
+
+    .wrench_cate {
+      width: 128px;
+      height: 164px;
+      position: absolute;
+      right: 66px;
+      bottom: 312px;
+      text-align: center;
+    }
+
+    .measuretitle {
+      position: absolute;
+      right: 338px;
+      bottom: 207px;
+    }
+
+    .measure_cate {
+      width: 511px;
+      height: 123px;
+      position: absolute;
+      bottom: 44px;
+      right: 175px;
+    }
+
+    .measure_cate li {
+      float: left;
+      margin-right: 47px;
+
+    }
+
+    .measure_cate li:last-child {
+      margin-right: 0;
+    }
+
+    .measuretip {
+      width: 117px;
+      height: 117px;
+      position: absolute;
+      left: 308px;
+      bottom: 51px;
+      animation: measuremove 2s ease forwards;
+      -webkit-animation: measuremove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes measuremove {
+      from {
+        left: 308px;
+      }
+
+      50% {
+        left: 328px;
+      }
+
+      to {
+        left: 308px;
+      }
+    }
+
+    @-webkit-keyframes measuremove {
+      from {
+        left: 318px;
+      }
+
+      50% {
+        left: 318px;
+      }
+
+      to {
+        left: 318px;
+      }
+    }
+
+    /* ==================园林工具========================= */
+    .handlegarden_tools {
+      position: absolute;
+      left: 382px;
+      top: 82px;
+
+    }
+
+    .handlegarden_product {
+      width: 527px;
+      height: 128px;
+      position: absolute;
+      left: 178px;
+      top: 146px;
+    }
+
+    .handlegarden_product li {
+      float: left;
+      margin-right: 53px;
+    }
+
+    .handlegarden_product li:last-child {
+      margin-right: 0;
+    }
+
+    .pipe_car {
+      width: 128px;
+      position: absolute;
+      right: 132px;
+      top: 225px;
+      text-align: center;
+    }
+
+    /* .gardentipBox {
+      width: 360px;
+      height: 74px;
+      position: absolute;
+      top: 302px;
+      left: 341px;
+    } */
+
+    .gardentipBox {
+      /* width: 360px;
+      height: 74px; */
+      position: absolute;
+      left: 347px;
+      top: 302px;
+      animation: gardentipBoxmove 2s ease alternate;
+      -webkit-animation: gardentipBoxmove 2s ease alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes gardentipBoxmove {
+      from {
+        top: 302px;
+      }
+
+      50% {
+        top: 315px;
+      }
+
+      to {
+        top: 302px;
+      }
+    }
+
+    @-webkit-keyframes gardentipBoxmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        top: 302px;
+      }
+
+      50% {
+        top: 315px;
+      }
+
+      to {
+        top: 302px;
+      }
+    }
+
+    .garden_tipth {
+      position: absolute;
+      left: 476px;
+      top: 302px;
+      animation: garden_tipthmove 1.5s ease forwards;
+      -webkit-animation: garden_tipthmove 1.5s ease forwards;
+      animation-iteration-count: infinite;
+
+    }
+
+    @keyframes garden_tipthmove {
+      from {
+        left: 476px;
+      }
+
+      50% {
+        left: 486px;
+      }
+
+      to {
+        left: 476px;
+      }
+    }
+
+    @-webkit-keyframes garden_tipthmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: 476px;
+      }
+
+      50% {
+        left: 486px;
+      }
+
+      to {
+        left: 476px;
+      }
+    }
+
+    .garden_topfv {
+      position: absolute;
+      left: 625px;
+      top: 302px;
+      animation: garden_topfvmove 2s ease forwards;
+      -webkit-animation: garden_topfvmove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes garden_topfvmove {
+      from {
+        top: 302px;
+      }
+
+      50% {
+        top: 332px;
+      }
+
+      to {
+        top: 302px;
+      }
+    }
+
+    @-webkit-keyframes garden_topfvmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        top: 302px;
+      }
+
+      50% {
+        top: 332px;
+      }
+
+      to {
+        top: 302px;
+      }
+    }
+
+    .lawn_mower {
+      width: 128px;
+      height: 128px;
+      position: absolute;
+      left: 112px;
+      bottom: 456px;
+      text-align: center;
+    }
+
+    .garden_logo {
+      width: 163px;
+      height: 163px;
+      position: absolute;
+      left: 459px;
+      bottom: 425px;
+      transition: 1s;
+    }
+
+    .garden_logo:hover {
+      animation: ele_logomove 2s ease forwards;
+      -webkit-animation: ele_logomove 2s ease forwards;
+    }
+
+    .gardensx {
+      position: absolute;
+      right: 351px;
+      bottom: 536px;
+      animation: gardensxmove 6s ease-in forwards;
+      -webkit-animation: gardensxmove 6s ease-in forwards;
+      animation-iteration-count: infinite;
+
+    }
+
+    @keyframes gardensxmove {
+      from {
+        right: 351px;
+      }
+
+      50% {
+        right: 227px;
+        transform: rotateZ(45deg);
+      }
+
+      to {
+        right: 500px;
+
+      }
+    }
+
+    @-webkit-keyframes gardensxmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        right: 351px;
+      }
+
+      50% {
+        right: 227px;
+        transform: rotateZ(45deg);
+      }
+
+      to {
+        right: 500px;
+
+      }
+    }
+
+
+    .eletools_titlw {
+      position: absolute;
+      right: 239px;
+      bottom: 334px;
+    }
+
+    .eletools {
+      width: 235px;
+      height: 122px;
+      position: absolute;
+      right: 184px;
+      bottom: 177px;
+    }
+
+    .eletools li {
+      float: left;
+      margin-right: 55px;
+    }
+
+    .eletools li:last-child {
+      margin-right: 0;
+    }
+
+    .chainsaw {
+      width: 129px;
+      height: 163px;
+      position: absolute;
+      left: 281px;
+      bottom: 78px;
+      text-align: center;
+    }
+
+    .garden_tipo {
+      position: absolute;
+      right: 137px;
+      top: 88px;
+      animation: garden_tipomove 2s ease backwards;
+      -webkit-animation: garden_tipomove 2s ease backwards;
+      animation-iteration-count: infinite;
+
+    }
+
+    @keyframes garden_tipomove {
+      from {
+        right: 137px;
+      }
+
+      50% {
+        right: 117px;
+      }
+
+      to {
+        right: 137px;
+      }
+    }
+
+    @-webkit-keyframes garden_tipomove
+
+    /* Safari and Chrome */
+      {
+      from {
+        right: 137px;
+      }
+
+      50% {
+        right: 117px;
+      }
+
+      to {
+        right: 137px;
+      }
+    }
+
+    /* ==================其他常备工具========================= */
+    .trolley {
+      position: absolute;
+      left: 159px;
+      top: 77px;
+      text-align: center;
+    }
+
+    .elecate_toolstitle {
+      position: absolute;
+      right: 275px;
+      top: 27px;
+    }
+
+    .elecate_productlist {
+      width: 371px;
+      height: 120px;
+      position: absolute;
+      top: 91px;
+      right: 143px;
+    }
+
+    .elecate_productlist li {
+      float: left;
+      margin-right: 49px;
+    }
+
+    .elecate_productlist li:last-child {
+      margin-right: 0;
+    }
+
+    .ascend_height_productlist {
+      width: 235px;
+      height: 121px;
+      position: absolute;
+      left: 252px;
+      top: 344px;
+    }
+
+    .ascend_height_productlist li {
+      float: left;
+      margin-right: 55px;
+    }
+
+    .ascend_height_productlist li:last-child {
+      margin-right: 0;
+    }
+
+    .other_logo {
+      position: absolute;
+      right: 367px;
+      top: 314px;
+      transition: 1s;
+    }
+
+    .other_logo:hover {
+      animation: ele_logomove 2s ease forwards;
+      -webkit-animation: ele_logomove 2s ease forwards;
+    }
+
+
+    .pressure_watergun {
+      position: absolute;
+      right: 105px;
+      top: 326px;
+      ;
+      text-align: center
+    }
+
+    .tool_kit {
+      position: absolute;
+      left: 156px;
+      bottom: 299px;
+      text-align: center
+    }
+
+    .ascend_height {
+      position: absolute;
+      left: 320px;
+      top: 285px;
+    }
+
+    .other_tipth {
+      position: absolute;
+      left: 308px;
+      bottom: 352px;
+      animation: other_tipthmove 2s ease forwards;
+      -webkit-animation: other_tipthmove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes other_tipthmove {
+      from {
+        left: 308px;
+      }
+
+      50% {
+        left: 318px;
+      }
+
+      to {
+        left: 308px;
+      }
+    }
+
+    @-webkit-keyframes other_tipthmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: 308px;
+      }
+
+      50% {
+        left: 318px;
+      }
+
+      to {
+        left: 308px;
+      }
+    }
+
+    .electromechanical_products {
+      width: 373px;
+      height: 121px;
+      position: absolute;
+      right: 250px;
+      bottom: 320px;
+    }
+
+    .electromechanical_products li {
+      float: left;
+      margin-right: 51px;
+    }
+
+    .electromechanical_products li:last-child {
+      margin-right: 0;
+    }
+
+    .other_tipfth {
+      position: absolute;
+      right: 72px;
+      bottom: 334px;
+      animation: other_tipfthmove 2s ease forwards;
+      -webkit-animation: other_tipfthmove 2s ease forwards;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes other_tipfthmove {
+      from {
+        bottom: 334px;
+      }
+
+      50% {
+        bottom: 360px;
+      }
+
+      to {
+        bottom: 334px;
+      }
+    }
+
+    @-webkit-keyframes other_tipfthmove {
+      from {
+        bottom: 334px;
+      }
+
+      50% {
+        bottom: 360px;
+      }
+
+      to {
+        bottom: 334px;
+      }
+    }
+
+    .consumables_title {
+      position: absolute;
+      right: 514px;
+      bottom: 211px;
+    }
+
+    .consumables_products {
+      position: absolute;
+      right: 178px;
+      bottom: 52px;
+    }
+
+    .consumables_products li {
+      float: left;
+      margin-right: 56px;
+    }
+
+    .consumables_products li:last-child {
+      margin-right: 0;
+    }
+
+    .other_tipt {
+      position: absolute;
+      top: 352px;
+      left: 83px;
+      animation: other_tiptmove 2s ease alternate;
+      -webkit-animation: other_tiptmove 2s ease alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes other_tiptmove {
+      from {
+        top: 352px;
+      }
+
+      50% {
+        top: 372px;
+      }
+
+      to {
+        top: 352px;
+      }
+    }
+
+    @-webkit-keyframes other_tiptmove
+
+    /* Safari and Chrome */
+      {
+      from {
+        top: 352px;
+      }
+
+      50% {
+        top: 372px;
+      }
+
+      to {
+        top: 352px;
+      }
+    }
+
+    .electromechanical_title {
+      position: absolute;
+      right: 374px;
+      bottom: 478px;
+    }
+
+    .consumables {
+      position: absolute;
+      left: 564px;
+      bottom: 211px;
+    }
+
+    .other_tipo {
+      position: absolute;
+      top: 91px;
+      left: 492px;
+      animation: other_tipomove 2s ease alternate;
+      -webkit-animation: other_tipomove 2s ease alternate;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes other_tipomove {
+      from {
+        left: 492px;
+      }
+
+      50% {
+        left: 482px;
+      }
+
+      to {
+        left: 492px;
+      }
+    }
+
+    @-webkit-keyframes other_tipomove
+
+    /* Safari and Chrome */
+      {
+      from {
+        left: 492px;
+      }
+
+      50% {
+        left: 482px;
+      }
+
+      to {
+        left: 492px;
+      }
+    }
+
+    .solution {
+      width: 963px;
+      height: 489px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* ========================= */
+    /* 简介 */
+    .introduction {
+      height: 524px;
+      background: #f0f0f0;
+    }
+
+    .whoweare {
+      width: 577px;
+      padding-left: 86px;
+    }
+
+    .whoweare h4,
+    .our_productLists h4,
+    .our_customers h4 {
+      font-size: 32px;
+      margin-top: 75px;
+      color: #3a5a81;
+    }
+
+    .whoweare h5,
+    .our_productLists h5,
+    .our_customers h5 {
+      font-size: 26px;
+      color: #333333;
+      margin: 12px 0 27px;
+    }
+
+    .whoweare>p {
+      text-indent: 2em;
+      font-size: 16px;
+      color: #000;
+
+    }
+
+    .whoweareImg {
+      width: 482px
+    }
+
+    .introductnav {
+      width: 716px;
+      height: 112px;
+      background: #fff;
+      margin-top: 56px;
+      position: absolute;
+      z-index: 3;
+    }
+
+    .introductnav li {
+      width: 65px;
+      float: left;
+      margin-right: 74px;
+      text-align: center;
+      padding-top: 17px;
+    }
+
+    .introductnav li:last-child {
+      margin-right: 0;
+    }
+
+    .introductnav li:first-child {
+      margin-left: 67px;
+    }
+
+    .introductnav li p,
+    .our_productLists p {
+      margin-top: 10px;
+      color: #3a5a81;
+      font-size: 14px;
+    }
+
+    .our_productLists {
+      height: 362px;
+      /* padding-top:67px; */
+
+    }
+
+    .our_productLists .fl {
+      width: 485px;
+      padding-left: 104px;
+    }
+
+    .our_productLists .fr .brand {
+      width: 507px;
+      height: 217px;
+      border: 1px solid #eee;
+
+    }
+
+    .brand {
+      margin-top: 69px;
+    }
+
+    .brand li {
+      width: 169px;
+      height: 108px;
+      float: left;
+      border-right: 1px solid #eeeeee;
+      border-bottom: 1px solid #eee;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .brand li p {
+      width: 100%;
+      height: 30px;
+      background: rgba(58, 90, 129, 0.5);
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      display: none;
+      line-height: 30px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .brand li:nth-child(3n) {
+      border-right: none;
+    }
+
+    .brand li:nth-child(4),
+    .brand li:nth-child(5),
+    .brand li:nth-child(6) {
+      border-bottom: none;
+
+    }
+
+    .allbtn {
+      margin-top: 36px;
+      height: 42px;
+    }
+
+    .allbtn a:hover {
+      cursor: pointer;
+      color: #fff;
+      background: #3a5a81;
+
+
+    }
+
+    .allbtn a {
+      display: block;
+      height: 42px;
+      line-height: 36px;
+      text-align: center;
+      width: 209px;
+      color: #3a5a81;
+      font-size: 21px;
+      border: 3px solid #3a5a81;
+      box-sizing: border-box;
+    }
+
+    .customers {
+      background: #eee;
+      height: 355px;
+      /* padding-top:70px; */
+      padding-top: 1px;
+    }
+
+    .our_customers {
+      padding-left: 122px;
+    }
+
+    .customerList {}
+
+    .customerList li {
+      float: left;
+      margin-right: 16px;
+    }
+
+    .customerList li:last-child {
+      margin-right: 0;
+    }
+
+    .footer {
+      height: 240px;
+      background: #fff;
+    }
+
+    .contact {
+      width: 789px;
+      height: 186px;
+      margin-left: 207px;
+      margin-top: 41px;
+      background: #f4f4f4;
+    }
+
+    .contact .fl {
+      width: 214px;
+    }
+
+    .introduction .tm-container {
+      position: relative;
+    }
+
+    .introduction .tm-container .fr {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 2;
+    }
+
+    .footer h4 {
+      font-size: 26px;
+      color: #3a5a81;
+      margin-top: 46px;
+    }
+
+    .footer p {
+      line-height: 24px;
+      font-size: 14px;
+      padding-right: 80px;
+    }
+
+/* ============= */
+  /* <!-- 导航样式 --> */
+    #indexKeywords a{
+      display:inline-block;
+    }
+    .tm_tost {
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      background-color: white;
+      background: #fff;
+      border-bottom: 2px solid #263545;
+
+    }
+
+    .tm-topMenu-btn {
+      width: 190px;
+      height: 40px;
+      display: block;
+      float: left;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #1b6dc5;
+      color: white;
+      text-align: left;
+      padding-left: 45px;
+      font-size: 16px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .tm-topMenu-part {
+      float: left;
+    }
+
+    .tm-topMenu-a {
+      font-weight: 400;
+      font-size: 16px;
+      color: #333;
+      display: block;
+      float: left;
+      margin-left: 40px;
+    }
+
+    .tm-topMenu-a:hover {
+      font-weight: bold;
+      color: #333;
+
+
+    }
+
+/* ================================= */
+  /* <!--  footer部分的样式 --> */
+    .ensureview {
+      margin: 0 auto;
+      /* margin-top: 40px; */
+      width: 1200px;
+    }
+
+    .ensureview_li {
+      float: left;
+      display: inline;
+      margin: 20px 0;
+      width: 300px;
+    }
+
+    .ensureview_item {
+      width: 260px;
+      display: table;
+      content: "";
+      /* padding: 20px; */
+      font-size: 12px;
+      color: #b7926e;
+    }
+
+    .ensureview_ex {
+      padding-top: 5px;
+      color:#555;
+    }
+
+    .releview {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .releview_li {
+      float: left;
+      /* display: inline; */
+      margin: 20px 0;
+      width: 150px;
+    }
+
+    .releview_item {
+      /* display: grid; */
+      margin-right: 20px;
+      /* text-align: center; */
+    }
+
+    .bottom_about {
+      margin: 0 auto;
+      width: 1200px;
+    }
+
+    .bottom_ul {
+      text-align: center;
+      width: 251px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 10px;
+
+    }
+
+    .bottom_ul>li {
+      display: inline;
+      padding: 0 10px;
+      float: left;
+      /* border-right: 1px solid #999; */
+    }
+
+    .bottom_ul>li>a {
+      text-decoration: none;
+      outline: 0;
+      color: #fff;
+    }
+
+    .bottom_ul>li>a:hover {
+      color: #0D76E7;
+    }
+
+    .bottom_ul:after {
+      display: block;
+      clear: both;
+    }
+
+    .bottom_flink {
+      width: 1200px;
+      margin: 0px auto;
+      display: table;
+      content: "";
+      padding:15px 0;
+    }
+
+    .bottom_flink_ul>li {
+      display: inline-block;
+      width: 8%;
+      padding-top: 10px;
+      color: #999;
+    }
+
+    .bottom_record {
+      color: #999;
+      margin: 0 auto;
+      width: 1200px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .bottom_btmicon {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 10px;
+      background: #fff;
+      text-align: center;
+      padding-bottom: 20px;
+      background:#0C141E;
+    }
+
+    .bottom_btmicon>a {
+      line-height: 14px;
+      padding: 0 10px;
+      font-size: 14px;
+      display:inline-block;
+    }
+    .releview_item p a{
+      color:#bcbcbc;
+    }
+    .releview_item img{
+      margin-left:17px;
+    }
+    .bottom_flink_ul li a{
+      color:#fff;
+    }
+/* ================== */

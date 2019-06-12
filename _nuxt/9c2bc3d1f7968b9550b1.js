@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[93],{1276:function(n,e,o){"use strict";o.r(e);var t=o(20),component=Object(t.a)({},void 0,void 0,!1,null,null,null);component.options.__file="waitingreceipt.vue",e.default=component.exports}}]);

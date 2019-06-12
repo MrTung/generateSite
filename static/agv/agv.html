@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge/11/10/9/8,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta charset="UTF-8">
+  <title>杭叉AGV-土猫网</title>
+
+  <meta name="keywords" content="杭叉AGV,智能物流,阳光采购,土猫网" />
+  <meta name="description" content="AGV智能物流整体解决方案,业内先进的科尔摩根AGV控制技术,集规划设计 系统集成 车辆制造 市场营销 工程服务于一体。" />
+  <script src="//resource.toolmall.com/resource/toolmallPc/resources/js/analysysAgent_b_release.js"></script>
+
+  <script>
+    /*! device.js 0.2.7   https://github.com/matthewhudson/device.js   */
+    (function () {
+      var a, b, c, d, e, f, g, h, i, j;
+      b = window.device, a = {}, window.device = a, d = window.document.documentElement, j = window.navigator.userAgent
+        .toLowerCase(), a.ios = function () {
+          return a.iphone() || a.ipod() || a.ipad()
+        }, a.iphone = function () {
+          return !a.windows() && e("iphone")
+        }, a.ipod = function () {
+          return e("ipod")
+        }, a.ipad = function () {
+          return e("ipad")
+        }, a.android = function () {
+          return !a.windows() && e("android")
+        }, a.androidPhone = function () {
+          return a.android() && e("mobile")
+        }, a.androidTablet = function () {
+          return a.android() && !e("mobile")
+        }, a.blackberry = function () {
+          return e("blackberry") || e("bb10") || e("rim")
+        }, a.blackberryPhone = function () {
+          return a.blackberry() && !e("tablet")
+        }, a.blackberryTablet = function () {
+          return a.blackberry() && e("tablet")
+        }, a.windows = function () {
+          return e("windows")
+        }, a.windowsPhone = function () {
+          return a.windows() && e("phone")
+        }, a.windowsTablet = function () {
+          return a.windows() && e("touch") && !a.windowsPhone()
+        }, a.fxos = function () {
+          return (e("(mobile;") || e("(tablet;")) && e("; rv:")
+        }, a.fxosPhone = function () {
+          return a.fxos() && e("mobile")
+        }, a.fxosTablet = function () {
+          return a.fxos() && e("tablet")
+        }, a.meego = function () {
+          return e("meego")
+        }, a.cordova = function () {
+          return window.cordova && "file:" === location.protocol
+        }, a.nodeWebkit = function () {
+          return "object" == typeof window.process
+        }, a.mobile = function () {
+          return a.androidPhone() || a.iphone() || a.ipod() || a.windowsPhone() || a.blackberryPhone() || a.fxosPhone() ||
+            a.meego()
+        }, a.tablet = function () {
+          return a.ipad() || a.androidTablet() || a.blackberryTablet() || a.windowsTablet() || a.fxosTablet()
+        }, a.desktop = function () {
+          return !a.tablet() && !a.mobile()
+        }, a.television = function () {
+          var a;
+          for (television = ["googletv", "viera", "smarttv", "internet.tv", "netcast", "nettv", "appletv", "boxee",
+              "kylo", "roku", "dlnadoc", "roku", "pov_tv", "hbbtv", "ce-html"
+            ], a = 0; a < television.length;) {
+            if (e(television[a])) return !0;
+            a++
+          }
+          return !1
+        }, a.portrait = function () {
+          return window.innerHeight / window.innerWidth > 1
+        }, a.landscape = function () {
+          return window.innerHeight / window.innerWidth < 1
+        }, a.noConflict = function () {
+          return window.device = b, this
+        }, e = function (a) {
+          return -1 !== j.indexOf(a)
+        }, g = function (a) {
+          var b;
+          return b = new RegExp(a, "i"), d.className.match(b)
+        }, c = function (a) {
+          var b = null;
+          g(a) || (b = d.className.replace(/^\s+|\s+$/g, ""), d.className = b + " " + a)
+        }, i = function (a) {
+          g(a) && (d.className = d.className.replace(" " + a, ""))
+        }, a.ios() ? a.ipad() ? c("ios ipad tablet") : a.iphone() ? c("ios iphone mobile") : a.ipod() && c(
+          "ios ipod mobile") : a.android() ? c(a.androidTablet() ? "android tablet" : "android mobile") : a.blackberry() ?
+        c(a.blackberryTablet() ? "blackberry tablet" : "blackberry mobile") : a.windows() ? c(a.windowsTablet() ?
+          "windows tablet" : a.windowsPhone() ? "windows mobile" : "desktop") : a.fxos() ? c(a.fxosTablet() ?
+          "fxos tablet" : "fxos mobile") : a.meego() ? c("meego mobile") : a.nodeWebkit() ? c("node-webkit") : a.television() ?
+        c("television") : a.desktop() && c("desktop"), a.cordova() && c("cordova"), f = function () {
+          a.landscape() ? (i("portrait"), c("landscape")) : (i("landscape"), c("portrait"))
+        }, h = Object.prototype.hasOwnProperty.call(window, "onorientationchange") ? "orientationchange" : "resize",
+        window.addEventListener ? window.addEventListener(h, f, !1) : window.attachEvent ? window.attachEvent(h, f) :
+        window[h] = f, f(), "function" == typeof define && "object" == typeof define.amd && define.amd ? define(
+          function () {
+            return a
+          }) : "undefined" != typeof module && module.exports ? module.exports = a : window.device = a
+    }).call(this);
+
+    (function () {
+      var tmRedirectMethod = function () {
+        window.location.href = "http://m.toolmall.com/html/about.html";
+      };
+
+      if (device.mobile()) {
+        //debugger;
+        tmRedirectMethod();
+      }
+    })();
+
+  </script>
+
+  <link rel="canonical" href="http://b.toolmall.com/static/about.html" />
+  <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+
+  <link href="//resource.toolmall.com/resource/toolmallPc/resources/thirdParty/flexslider2/flexslider.min.css" rel="stylesheet"
+    type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="//resource.toolmall.com/resource/business/activity/agv/animate.css" />
+
+  <link rel="stylesheet" type="text/css" href="../../css/icomoon/style.css">
+  <link rel="stylesheet" type="text/css" href="//resource.toolmall.com/resource/business/css/common.css">
+  <!--  footer部分的样式 -->
+  <style>
+    .ensureview {
+      margin: 0 auto;
+      /* margin-top: 40px; */
+      width: 1200px;
+    }
+
+    .ensureview_li {
+      float: left;
+      display: inline;
+      margin: 20px 0;
+      width: 300px;
+    }
+
+    .ensureview_item {
+      width: 260px;
+      display: table;
+      content: "";
+      /* padding: 20px; */
+      font-size: 12px;
+      color: #b7926e;
+    }
+
+    .ensureview_ex {
+      padding-top: 5px;
+    }
+
+    .releview {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .releview_li {
+      float: left;
+      /* display: inline; */
+      margin: 20px 0;
+      width: 150px;
+    }
+
+    .releview_item {
+      /* display: grid; */
+      margin-right: 20px;
+      /* text-align: center; */
+    }
+
+    .bottom_about {
+      margin: 0 auto;
+      width: 1200px;
+    }
+
+    .bottom_ul {
+      /* list-style: none; */
+      text-align: center;
+      margin-bottom: 10px;
+      width: 100%;
+      float: left;
+    }
+
+    .bottom_ul>li {
+      display: inline;
+      padding: 0 10px;
+      /* border-right: 1px solid #999; */
+    }
+
+    .bottom_ul>li>a {
+      text-decoration: none;
+      outline: 0;
+      color: inherit;
+    }
+
+    .bottom_ul>li>a:hover {
+      color: #0D76E7;
+    }
+
+    .bottom_ul:after {
+      display: block;
+      clear: both;
+    }
+
+    .bottom_flink {
+      width: 1200px;
+      margin: 15px auto;
+      display: table;
+      content: "";
+    }
+
+    .bottom_flink_ul>li {
+      display: inline-block;
+      width: 8%;
+      padding-top: 10px;
+      color: #999;
+    }
+
+    .bottom_record {
+      color: #999;
+      margin: 0 auto;
+      width: 1200px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .bottom_btmicon {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 10px;
+      background: #fff;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .bottom_btmicon>a {
+      line-height: 14px;
+      padding: 0 10px;
+      font-size: 14px;
+    }
+
+  </style>
+  <style>
+    .ld_sheme_bg {
+      margin-top: 80px;
+      min-width: 1200px;
+      height: 986px;
+      background: #edf5ff url(../../landing/icon_scheme_big_bg.jpg) center top no-repeat;
+    }
+
+    .tm-fangan {
+      width: 1200px;
+      height: 986px;
+      position: relative;
+      margin: auto;
+    }
+
+    .ld_sheme {
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .ld_sheme_title {
+      background: #0D76E7;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 500px;
+      position: absolute;
+      top: -20px;
+      left: 30%;
+      display: none;
+    }
+
+    .ld_sheme_hc {
+      position: absolute;
+      top: 211px;
+      left: 43.5%;
+      width: 130px;
+      height: 130px;
+      display: block;
+    }
+
+    .ld_sheme_hc_text {
+      position: absolute;
+      width: 585px;
+      height: 80px;
+      top: 0;
+      left: 48%;
+      margin-top: 120px;
+      display: block;
+    }
+
+    @media screen and (min-width:1920px) {
+      .ld_sheme_bg {
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+    }
+
+    .tm_tost {
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      background-color: white;
+      background: #fff;
+      border-bottom: 2px solid #263545;
+
+    }
+
+    .tm-topMenu-btn {
+      width: 190px;
+      height: 40px;
+      display: block;
+      float: left;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #1b6dc5;
+      color: white;
+      text-align: left;
+      padding-left: 45px;
+      font-size: 16px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .tm-topMenu-part {
+      float: left;
+    }
+
+    .tm-topMenu-a {
+      font-weight: 400;
+      font-size: 16px;
+      color: #333;
+      display: block;
+      float: left;
+      margin-left: 40px;
+    }
+
+    .tm-topMenu-a:hover {
+      font-weight: bold;
+      color: #333;
+
+
+    }
+
+  </style>
+
+  <style>
+    .wow {
+      visibility: hidden;
+    }
+
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="//resource.toolmall.com/resource/business/activity/agv/agv.css" />
+
+
+</head>
+
+<body>
+  <div class="tm-headtop">
+    <div class="tm-headtop_title">
+      <div class="tm-headtop_welcome">欢迎进入土猫企业购平台<span style="padding:0 10px">|</span>股票代码：002444</div>
+      <ul class="tm-headtop_ul">
+        <li>
+          <a href="/" class="router-link-active" target="_blank">企业采购首页</a>
+        </li>
+        <li class="tm-separator-li">
+          <span class="tm-separator">|</span>
+        </li>
+        <li>
+          <a rel="nofollow" target="_blank" href="/profile/enquiryorder">我的报价</a>
+        </li>
+        <li class="tm-separator-li">
+          <span class="tm-separator">|</span>
+        </li>
+        <li>
+          <a rel="nofollow" target="_blank" href="/profile/purchaseorders">我的订单</a>
+        </li>
+        <li class="tm-separator-li">
+          <span class="tm-separator">|</span>
+        </li>
+        <li>
+          <a rel="nofollow" href="/profile" class="" target="_blank">会员中心</a>
+        </li>
+        <li class="tm-separator-li">
+          <span class="tm-separator">|</span>
+        </li>
+        <li>
+          <a href="http://www.toolmall.com/" target="_blank">土猫网</a>
+        </li>
+        <li class="tm-separator-li">
+          <span class="tm-separator">|</span>
+        </li>
+        <li>
+          <a target="_blank" href="http://www.toolmall.com/apk/dl">手机土猫</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="topSearch-out" class="tm-topSearch-out">
+    <div class="tm-container tm-topSearch">
+      <div class="tm-clearfix">
+        <div class="tm-logo">
+          <h1>
+            <a href="/" class="tm-logo-a router-link-active">土猫网</a>
+          </h1>
+        </div>
+        <div class="tm-search">
+          <div class="tm-search-form-out">
+            <div id="productSearchForm" class="tm-search-form">
+              <input name="keyword" placeholder="搜索工具/品牌" maxlength="30" id="productSearchFormText" class="tm-search-text">
+              <input type="button" value="搜  索" class="tm-search-submit" id="js_search_btn" />
+            </div>
+          </div>
+          <div id="indexKeywords" class="tm-search-keywords-out">
+            <a href="/search?keyword=手电钻" class="tm-search-keyword">手电钻</a>
+            <a href="/search?keyword=充电钻" class="tm-search-keyword">充电钻</a>
+            <a href="/search?keyword=角磨机" class="tm-search-keyword">角磨机</a>
+            <a href="/search?keyword=冲击钻" class="tm-search-keyword">冲击钻</a>
+            <a href="/search?keyword=电圆锯" class="tm-search-keyword">电圆锯</a>
+          </div>
+        </div>
+        <div class="tm-kefu">
+          <a class="tm-kefu-a">
+            <span class="el-icon-tm-serve"></span>
+            联系客服&nbsp;400-905-7828
+          </a>
+        </div>
+        <a href="/cart" class="tm-search-cart" rel="nofollow">
+          <div class="tm-search-cart-in">
+            购物车
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="tm_tost">
+    <div class="tm-container">
+      <div class="tm-topMenu-btn" href="http://b.toolmall.com/">商品全部分类</div>
+      <div class="tm-topMenu-part">
+        <!-- <a class="tm-topMenu-a" href="http://b.toolmall.com/">首页</a> -->
+        <a class="tm-topMenu-a" target="_blank" href="http://www.toolmall.com/">土猫网</a>
+        <a class="tm-topMenu-a" href="http://b.toolmall.com/brand" target="_blank">
+          品牌馆
+        </a>
+        <a class="tm-topMenu-a" href="http://b.toolmall.com/static/comhcforklif.html" target="_blank">
+          杭叉专题
+        </a>
+        <a class="tm-topMenu-a" href="http://b.toolmall.com/static/3m.html" target="_blank">
+          3M专题
+        </a>
+        <!-- <a rel="nofollow" class="tm-topMenu-a" href="http://b.toolmall.com/login" class="" target="_blank">
+         快速订单
+       </a> -->
+        <a rel="nofollow" class="tm-topMenu-a" href="http://b.toolmall.com/cooperation" class="" target="_blank">
+          项目合作
+        </a>
+        <a class="tm-topMenu-a" href="http://b.toolmall.com/static/about.html" target="_blank">
+          关于土猫
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="tm-agv-main">
+    <div class="agv-top">
+      <div class="tm-container agv-top-in">
+        <!--<img src="//resource.toolmall.com/resource/business/activity/agv/img/img1.png" class="agv-top-img1 agv-animate agv-animate-fadeIn " width="739" height="138"/>-->
+        <!--<img src="//resource.toolmall.com/resource/business/activity/agv/img/img1.png" class="agv-top-img1 animated slideInDown " width="739" height="138"/>-->
+        <!--<img src="//resource.toolmall.com/resource/business/activity/agv/img/img1.png" class="agv-top-img1 agv-animate agv-animate-slideInDown " width="739" height="138"/>-->
+        <img src="//resource.toolmall.com/resource/business/activity/agv/img/img1.png" class="agv-top-img1 wow bounceInDown" width="739"
+          height="138" />
+
+        <div class="agv-top-text">
+          <div class=" wow bounceInUp" data-wow-delay="1s">
+            <div class="agv-top-tabs-target tm-active">仓库管理系统,支持集团部署、分布部署,向上对接ERP、CRM、SCM集成</div>
+            <div class="agv-top-tabs-target">生产制造执行系统,支持集团部署、分部部署,向上对接ERP、CRM、SCM集成</div>
+            <div class="agv-top-tabs-target">
+              <div style="text-align: left;padding-left: 60px;">
+                1、通过AMS,进行上层系统、下层执行系统之间的对接;
+                <br/> 2、由杭叉智能专业软件公司进行自主定制化开发,针对不同需求设计,满足现场各个工况
+              </div>
+            </div>
+            <div class="agv-top-tabs-target">提供智能制造整体解决方案</div>
+            <div class="agv-top-tabs-target">提供自动化立库整体解决方案</div>
+          </div>
+
+          <div class="tm-row agv-top-tabs">
+            <span class="agv-top-tab tm-active wow slideInLeft" data-wow-delay="2s">WMS</span>
+            <span class="agv-top-tab wow slideInLeft" data-wow-delay="2s">MES</span>
+            <span class="agv-top-tab wow slideInRight" data-wow-delay="2s">AMS</span>
+            <span class="agv-top-tab wow slideInRight" data-wow-delay="2s">MES+AMS+AGV</span>
+            <span class="agv-top-tab wow slideInRight" data-wow-delay="2s" style="padding: 0 13px 0 14px;">WMS+AMS+AGV</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="agv-part-2">
+      <div class="tm-container">
+        <h2 class="agv-img-title" id="agv-img-title_2">项目保障</h2>
+        <div class="tm-row agv-bz-items">
+          <div class="tm-col-fourth">
+            <div class="agv-bz-item">
+              <div class="agv-bz-item-order">1</div>
+              <h3 class="agv-h3">方案规划</h3>
+              <div class="agv-bz-item-text">
+                为每一个客户量身定制最合理的整体物流方案，真正做到：为客户所想，为客户所用。
+              </div>
+              <div class="agv-bz-item-img-div">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/img3.png" />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-bz-item">
+              <div class="agv-bz-item-order">2</div>
+              <h3 class="agv-h3">生产制造</h3>
+              <div class="agv-bz-item-text">
+                专业化生产设备现有产线年生产能力20万台.
+              </div>
+              <div class="agv-bz-item-img-div">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/img4.png" />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-bz-item">
+              <div class="agv-bz-item-order">3</div>
+              <h3 class="agv-h3">售后维护</h3>
+              <div class="agv-bz-item-text">
+                经过严格培训的售后服务队伍遍布全国的售后服务网络驻场与叫修模式相结合。
+              </div>
+              <div class="agv-bz-item-img-div">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/img5.png" />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-bz-item">
+              <div class="agv-bz-item-order">4</div>
+              <h3 class="agv-h3">工程实施</h3>
+              <div class="agv-bz-item-text">
+                经验丰富的专业技术团队驻扎项目现场和使用方深入探讨，合理筛选多方意见在最短的工期内完成最优质的工程项目。
+              </div>
+              <div class="agv-bz-item-img-div">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/img6.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="agv-part-3">
+      <div class="tm-container">
+        <h2 class="agv-img-title" id="agv-img-title_3">研发能力</h2>
+        <div class="tm-row agv-yf-items">
+          <div class="f-left" style="width: 830px;">
+            <div class="agv-yf-text  wow bounceInLeft" style="position: relative;">
+              <p>杭叉聘请了中国工程院院士，哈尔滨工业大学教授，中国机器人之父蔡鹤皋先生作为杭叉集团院士来指导杭叉智能工业车辆技术研发工作，并成功研发来新一代智能工业车辆（AGV）。</p>
+              <p>目前杭叉拥有叉车式AGV，移载式AGV，潜入式AGV，牵引式AGV，轻载多向移动式AGV等系列产品。先后与浙江大学，浙江工业大学，浙江科技学院等高校建立了产学研合作关系，并拥有巨星科技，中策橡胶，上海大众，菜鸟物流等一批高端客户。</p>
+            </div>
+            <div class="tm-row  wow bounceInUp" style="position: relative;">
+              <div class="tm-col-third">
+                <img src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_25.jpg" />
+              </div>
+              <div class="tm-col-third" style="text-align: center;">
+                <img src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_28.jpg" />
+              </div>
+              <div class="tm-col-third" style="text-align: right;">
+                <img src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_30.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="f-right  wow bounceInRight" style="width: 270px;position: relative;">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_22.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="agv-part-4">
+      <div class="tm-container">
+        <h2 class="agv-img-title" id="agv-img-title_4">杭叉AGV发展历程</h2>
+        <div class="agv-lc-silder">
+          <div class="flexslider" id="agv_lc_slider">
+            <ul class="slides">
+              <li>
+                <div class="agv-lc-item">
+                  <div class="agv-lc-title">2012</div>
+                  <div class="agv-lc-text">自主研发AGV系统</div>
+                </div>
+              </li>
+              <li>
+                <div class="agv-lc-item">
+                  <div class="agv-lc-title">2014</div>
+                  <div class="agv-lc-text">成立智能工业车辆院士专家工作站</div>
+                </div>
+              </li>
+              <li>
+                <div class="agv-lc-item tm-active">
+                  <div class="agv-lc-title">2015</div>
+                  <div class="agv-lc-text">2015年浙江省政府批复建设浙江省杭叉智能工业车辆省级重点企业研究院</div>
+                </div>
+              </li>
+              <li>
+                <div class="agv-lc-item">
+                  <div class="agv-lc-title">2016</div>
+                  <div class="agv-lc-text">与科尔摩根集团签订AGV技术的战略合作协议</div>
+                </div>
+              </li>
+              <li>
+                <div class="agv-lc-item">
+                  <div class="agv-lc-title">2017</div>
+                  <div class="agv-lc-text">2017年完成全国首个人工叉车和AGV混合运行项目，全国首个高举升三向堆垛自动仓库项目</div>
+                </div>
+              </li>
+              <li>
+                <div class="agv-lc-item">
+                  <div class="agv-lc-title">2018</div>
+                  <div class="agv-lc-text">2018年成立杭叉智能科技有限公司</div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="agv-part-5">
+      <div class="agv-part-5-half">&nbsp;</div>
+      <div class="agv-part-5-in">
+        <div class="tm-container">
+          <h2 class="agv-img-title" id="agv-img-title_5">AGV产品系列</h2>
+          <div class="tm-prd-sliders">
+            <div class="flexslider" id="agv_prds_slider">
+              <ul class="slides">
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_01.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd1.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">AGV托盘堆垛车</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_02.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd2.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">AGV托盘搬运车</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_03.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd3.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">前移式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_04.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd4.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">窄巷道三向式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_05.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd5.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">平衡重式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_06.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd6.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">3-5t堆垛式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_07.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd7.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">双舵轮AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_08.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd8.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">舵柄牵引式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_09.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd9.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">滚筒式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_10.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd10.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">室外牵引式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_11.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd11.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">侧面叉式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_12.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd12.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">轻载多向移动式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="agv-prd-item">
+                    <div class="agv-prd-item-in">
+                      <a target="_blank" href="agv_prd_13.html">
+                        <img src="//resource.toolmall.com/resource/business/activity/agv/img/prd13.jpg" width="340" height="340" />
+                        <div class="agv-prd-item-text">潜入式AGV</div>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="agv-part-6">
+      <div class="tm-container">
+        <h2 class="agv-img-title" id="agv-img-title_6">AGV产品系列（应用场景）</h2>
+        <div class="tm-row agv-cj-items">
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">汽车行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_55.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">医药行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_56.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">光伏行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_57.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">物流行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_58.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">橡胶行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_59.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">平台型行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_60.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">机械行业</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_61.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tm-col-fourth">
+            <div class="agv-cj-item">
+              <h3 class="agv-h3">其他项目</h3>
+              <div class="agv-bz-item-img-div-2">
+                <img class="agv-bz-item-img" src="//resource.toolmall.com/resource/business/activity/agv/img/qietu_62.jpg" width="293" height="316"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="agv-part-7">
+      <div class="tm-container">
+        <h2 class="agv-img-title" id="agv-img-title_7">AGV产品系列（应用场景）</h2>
+        <div class="tm-row wl-content">
+          <div class="wl-menu">
+            <ul class="wl-menu-ul">
+              <li class="tm-active">
+                <span class="wl-menu-num">01</span>华晨宝马
+                <div class="wl-menu-indicator">&nbsp;</div>
+              </li>
+              <li>
+                <span class="wl-menu-num">02</span>必康制药</li>
+              <li>
+                <span class="wl-menu-num">03</span>隆基乐叶</li>
+
+
+
+
+              <li>
+                <span class="wl-menu-num">04</span>常州赛拉弗</li>
+              <li>
+                <span class="wl-menu-num">05</span>新明珠陶瓷</li>
+              <li>
+                <span class="wl-menu-num">06</span>朝阳轮胎</li>
+              <li>
+                <span class="wl-menu-num">07</span>京东</li>
+              <li>
+                <span class="wl-menu-num">08</span>风神物流
+              </li>
+              <li>
+                <span class="wl-menu-num">09</span>菜鸟物流</li>
+              <li>
+                <span class="wl-menu-num">10</span>龙星物流</li>
+              <li>
+                <span class="wl-menu-num">11</span>山川机械</li>
+              <li>
+                <span class="wl-menu-num">12</span>其他项目</li>
+            </ul>
+          </div>
+          <div class="wl-article tm-active">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_2.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">汽车行业——华晨宝马</div>
+              <ul>
+                <li>宝马全球首例“与人工物流车混行”AGV项目</li>
+                <li>3台激光导航托盘搬运车</li>
+                <li>360°全方位安全防护</li>
+                <li>设备使用率达98%以上</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_2.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_3.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">医药行业——必康制药</div>
+              <ul>
+                <li>WMS、AGV、高架库、自动化立体库。</li>
+                <li>3种车型，多车混合调度。</li>
+                <li>出库为地堆深巷道储存模式。</li>
+                <li>配备自主充电系统。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_3.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_4.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">光伏行业——隆基乐叶</div>
+              <ul>
+                <li>对接提升机，实现跨楼层搬运。</li>
+                <li>配备呼叫按钮、对接MES系统.实现产线端自动化上线料。</li>
+                <li>货物最大重量3T。</li>
+                <li>配备自主充电系统。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_4.jpg" class="wl-article-img" />
+            </div>
+          </div>
+
+
+
+
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_5.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">光伏行业——常州赛拉弗</div>
+              <ul>
+                <li>国内首例经济型窄巷道AGV</li>
+                <li>6台混合导航窄道型AGV(激光+磁条）</li>
+                <li>与ERP、WMS、输送线、电子看板等无缝衔接、实时交互</li>
+                <li>举升高度9.5m, 栽荷800kg</li>
+                <li>巷道宽度1.9m, 库容率提升40%</li>
+                <li>配备自主充电系统</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_5.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_6.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">陶瓷行业——新明珠陶瓷</div>
+              <ul>
+                <li>陶瓷片尺寸长3m ,宽2m ,重量3000kg。</li>
+                <li>运用5t叉式AGV。</li>
+                <li>高精度的陶瓷容器自堆垛。</li>
+                <li>对接窑炉下砖机，抛光上砖机。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_6.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_7.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">橡胶行业——朝阳轮胎</div>
+              <ul>
+                <li>11台AGV混合调度。</li>
+                <li>定制夹抱式属具。</li>
+                <li>对接库位检测光电、感应门、MES系统。</li>
+                <li>管理所有物料的库位及产品信息。</li>
+                <li>应用于炼胶、半制品、成型等工艺流程之间的自动搬运。</li>
+                <li>配备全方位的安全防护，和现场人工混合、安全作业。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_7.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_8.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">平台型企业——京东</div>
+              <ul>
+                <li>服务于广州京东黄埔亚洲一号</li>
+                <li>与京东WMS系统完美对接，实时交互
+                  <br/> Perfectly link with JD's WMS, real-time interaction
+                </li>
+                <li>全方位的安全防护
+                  <br/>All-round security protection</li>
+                <li>6条深巷道存储
+                  <br/>six deep-roadway for storage</li>
+                <li>配备自主充电系统
+                  <br/>Equipped autonomous charging system</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_8.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article ">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_1.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">物流行业——风神物流</div>
+              <ul>
+                <li>一期：备胎自动化入库。</li>
+                <li>起升5.5米，轮胎总重量500Kg。</li>
+                <li>对接机械臂，WMS系统。</li>
+                <li>整车360 安全防护。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_1.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_9.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">物流行业——菜鸟物流</div>
+              <ul>
+                <li>对接WMS、立库。</li>
+                <li>配备人工呼叫按钮。</li>
+                <li>多车调度。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_9.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_10.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">物流行业——龙星物流</div>
+              <ul>
+                <li>国内首例运用自然导航，进行集装箱自动卸货的AGV项目。</li>
+                <li>7台堆垛式AGV ,配合3台高举升前移式AGV (起升9m ） ,全自动出入库。</li>
+                <li>最小巷道3250mm ,最大载重2t。</li>
+                <li>配备自主充电系统。</li>
+              </ul>
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_10.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_11.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">机械行业——山川机械</div>
+              &nbsp;
+              <img src="//resource.toolmall.com/resource/business/activity/agv/img/logo_11.jpg" class="wl-article-img" />
+            </div>
+          </div>
+          <div class="wl-article">
+            <img src="//resource.toolmall.com/resource/business/activity/agv/img/title_12.jpg" class="wl-img" />
+            <div class="wl-article-text">
+              <div class="wl-article-text-h3">&nbsp;</div>
+              <ul>
+                <li>杭叉集团双舵轮负载式AGV</li>
+                <li>西安航天移载式AGV</li>
+                <li>大众汽车室外牵引车</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="agv-btm-out">
+      <div class="tm-container">
+        <div class="agv-btm">
+          <div class="agv-btm-out-h">400-905-7828</div>
+          <div>
+            <p>地址：浙江省杭州市江干区九堡九环路35号杭州巨星科技股份有限公司</p>
+            <p>邮箱：toolmall@toolmall.com</p>
+            <p>在线客服服务时间：9:00-18:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tm-agv-kefu " id="js_tm-agv-kefu">
+    <img src="//resource.toolmall.com/resource/business/activity/agv/img/tm_logo_close.png" class="agv-kefu-logo-close" />
+    <p class="tm-agv-kefu-p2">
+      <img src="//resource.toolmall.com/resource/business/activity/agv/img/tm_logo.gif" class="js-qiyukf-toggle agv-kefu-logo"
+      />
+    </p>
+  </div>
+
+  <script src="../../js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="//resource.toolmall.com/resource/toolmallPc/resources/shop/js/jquery.lazyload.min.js"></script>
+  <script src="//resource.toolmall.com/resource/toolmallPc/resources/thirdParty/flexslider2/jquery.flexslider.min.js"></script>
+  <script src="//resource.toolmall.com/resource/business/activity/agv/wow.min.js"></script>
+
+  <script>
+    $().ready(function () {
+      $(".agv-top-tab").mouseenter(function () {
+        if (!$(this).hasClass("tm-active")) {
+          var index = $(this).index();
+          $(".agv-top-tab").removeClass("tm-active").eq(index).addClass("tm-active");
+          $(".agv-top-tabs-target").removeClass("tm-active").eq(index).addClass("tm-active");
+        }
+      });
+
+      /*$('#agv_lc_slider').flexslider({
+          animation: "slide",
+          animationLoop: false,
+          itemWidth: 210,
+          itemMargin: 5,
+          minItems: 2,
+          maxItems: 3
+      });*/
+
+      //agv_lc_slider
+      $("#agv_lc_slider").flexslider({
+        prevText: "",
+        nextText: "",
+        animation: "slide",
+        slideshow: false,
+        controlNav: false,
+        directionNav: true,
+        // itemWidth: 300,
+        // itemMargin: 20,
+        itemWidth: 370,
+        minItems: 1,
+        maxItems: 3,
+        move: 1,
+        startAt: 1,
+        animationLoop: true,
+        before: function (slider) {
+          var liElem = slider.slides[slider.animatingTo + 1];
+          $(".agv-lc-item").removeClass("tm-active");
+          $(liElem).find(".agv-lc-item").addClass("tm-active");
+        },
+      });
+
+      //agv_prds_slider
+      $("#agv_prds_slider").flexslider({
+        prevText: "",
+        nextText: "",
+        animation: "slide",
+        slideshow: false,
+        controlNav: true,
+        directionNav: true,
+        itemWidth: 376,
+        itemMargin: 12,
+        minItems: 1,
+        maxItems: 3,
+        move: 0,
+        animationLoop: true,
+      });
+
+      //
+      $(".wl-menu-ul>li").click(function () {
+        if ($(this).hasClass("tm-active")) {
+          return
+        }
+        var index = $(this).index();
+        $(".wl-menu-ul>li").removeClass("tm-active");
+        $(this).addClass("tm-active");
+        $(".wl-article").hide()
+          .eq(index).fadeIn(300);
+        $(".wl-menu .wl-menu-indicator").remove();
+        $(this).append('<div class="wl-menu-indicator">&nbsp;</div>');
+      });
+
+      // agv-kefu-logo-close
+      $(".agv-kefu-logo-close").click(function () {
+        $("#js_tm-agv-kefu").hide();
+      });
+
+      //wow 等待3秒
+      setTimeout(function () {
+        new WOW().init();
+      }, 3000);
+
+    });
+
+  </script>
+
+
+  <script>
+    var uid;
+    // 优先从url中取uid，若有则后面的统计请求中使用这个值
+    var url_uid;
+
+    function getQueryString(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]);
+      return null;
+    }
+    url_uid = getQueryString("uid");
+    if (url_uid) {
+      window.localStorage.setItem("COUNT_UID", url_uid);
+    }
+    //打开页面发送统计
+    function countOpen() {
+      var params = {
+        url: window.location.href, // 当前静态页完整URL,
+        referUrl: document.referrer, // 来源URL,
+        pageType: 'b_pc_agv', // pageType内容类型
+        contentID: 'b_pc_agv', // contentID对应分类页或产品页ID
+      };
+
+      //创建异步对象
+      var xhr = new XMLHttpRequest();
+
+      var dataStr = '';
+      var url = 'http://www.toolmall.com/stat/open';
+
+      Object.keys(params).forEach(key => {
+        dataStr += key + '=' + params[key] + '&';
+      })
+      if (dataStr !== '') {
+        dataStr = dataStr.substr(0, dataStr.lastIndexOf('&'));
+        url = url + '?' + dataStr;
+      }
+      //设置请求的类型及url
+      //post请求一定要添加请求头才行不然会报错
+      xhr.open('get', url);
+      xhr.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+      xhr.onreadystatechange = function () {
+        // 这步为判断服务器是否正确响应
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          if (xhr.response) {
+            var json = JSON.parse(xhr.response);
+            uid = json.uid;
+          }
+        }
+      };
+      //发送请求
+      xhr.send(params);
+    }
+    countOpen();
+
+    function countClose() {
+      var parms = {
+        url: window.location.href, // 当前静态页完整URL,
+        referUrl: document.referrer, // 来源URL,
+        pageType: 'b_pc_agv', // pageType内容类型
+        contentID: 'b_pc_agv', // contentID对应分类页或产品页ID
+        uid: url_uid
+      };
+
+      //创建异步对象
+      var xhr = new XMLHttpRequest();
+      //设置请求的类型及url
+      var dataStr = '';
+      var url = 'http://www.toolmall.com/stat/close';
+
+      Object.keys(parms).forEach(key => {
+        dataStr += key + '=' + parms[key] + '&';
+      })
+      if (dataStr !== '') {
+        dataStr = dataStr.substr(0, dataStr.lastIndexOf('&'));
+        url = url + '?' + dataStr;
+      }
+      //post请求一定要添加请求头才行不然会报错
+      xhr.open('get', url, false);
+      xhr.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+      xhr.onreadystatechange = function () {
+        // 这步为判断服务器是否正确响应
+        if (xhr.readyState == 4 && xhr.status == 200) {
+
+        }
+      };
+      //发送请求
+      xhr.send(parms);
+    }
+
+    window.onbeforeunload = function (event) {
+      countClose();
+    }
+
+
+    $().ready(function () {
+      $(".lazyImage").lazyload({
+        threshold: 100,
+        effect: "fadeIn",
+        failure_limit: 10
+      });
+
+      $("#js_search_btn").click(function () {
+        if ($("#productSearchFormText").val()) {
+          location.href = '/search?keyword=' + $("#productSearchFormText").val();
+        }
+      });
+
+    });
+
+  </script>
+
+  <script>
+    (function () {
+      function addBaiduJs() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?8c7f408de312dce1c8d87c36e276ba25";
+        document.body.appendChild(hm);
+      }
+      if (window.addEventListener) { //所有主流浏览器，除了 IE 8 及更早 IE版本
+        window.addEventListener("load", addBaiduJs);
+      } else if (window.attachEvent) { // IE 8 及更早 IE 版本
+        window.attachEvent("onload", addBaiduJs);
+      }
+    })();
+
+  </script>
+
+  <script src="https://qiyukf.com/script/9865ab019f25c7b237472bd8eb5b6c55.js"></script>
+  <script type="text/javascript">
+    ysf.on({
+      'onload': function () {
+
+      }
+    });
+
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".js-qiyukf-toggle, .tm-kefu-a").on("click", function () {
+        ysf.open({
+          templateId: 2500810
+        });
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>

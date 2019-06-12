@@ -1,0 +1,486 @@
+.c-top{
+  min-width: 1200px;
+  height: 594px;
+  position: relative;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang1.jpg) center center no-repeat;
+}
+.c-top-text{
+  position: absolute;
+  top: 349px;
+  left: 50%;
+  margin-left: -547px;
+  width: 652px;
+  height: 154px;
+  padding: 16px 30px 0 30px;
+  color: white;
+  font-size: 21px;
+  line-height: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-indent: 44px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/c_top_2.png) center center no-repeat;
+}
+.tm-hidden-text{
+  display: none;
+}
+.c-changjing{
+  min-width: 1200px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_back_2.jpg) center center no-repeat;
+}
+.c-changjing-container{
+  height: 773px;
+  position: relative;
+}
+.c-changjing-container .c-prd{
+  width: 120px;
+  height: 130px;
+  position: absolute;
+  text-align: center;
+}
+.c-changjing-container .c-prd .c-prd-text{
+  color: white;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 2px;
+}
+.c-prd-1{
+  left: 827px;
+  top: 127px;
+}
+.c-prd-2{
+  left: 971px;
+  top: 127px;
+}
+.c-prd-3{
+  left: 192px;
+  top: 336px;
+}
+.c-prd-4{
+  left: 332px;
+  top: 336px;
+}
+.c-prd-5{
+  left: 472px;
+  top: 336px;
+}
+.c-prd-6{
+  left: 612px;
+  top: 336px;
+}
+.c-prd-7{
+  left: 94px;
+  top: 579px;
+}
+.c-prd-8{
+  left: 235px;
+  top: 579px;
+}
+.c-prd-9{
+  left: 374px;
+  top: 579px;
+}
+.c-changjing-container .c-prd-10{
+  position: absolute;
+  text-align: center;
+  height: 180px;
+  width: 128px;
+  left: 651px;
+  top: 559px;
+}
+.c-changjing-container .c-prd-10 .c-prd-text{
+  color: white;
+  line-height: 40px;
+  font-size: 23px;
+  margin-top: 5px;
+}
+.c-changjing-container .c-huojia-more{
+  width: 50px;
+  left: 742px;
+  top: 370px;
+  height: 92px;
+}
+.c-changjing-container .c-huojia-more .c-prd-text{
+  margin-top: 40px;
+}
+.c-che{
+  position: absolute;
+  display: block;
+  width: 77px;
+  height: 53px;
+  left: 222px;
+  top: 128px;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -ms-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+.c-che.c-animated{
+  -webkit-transform: translate(440px, 0);
+  -moz-transform: translate(440px, 0);
+  -ms-transform: translate(440px, 0);
+  -o-transform: translate(440px, 0);
+  transform: translate(440px, 0);
+}
+.c-youshi{
+  background: #f5f5f5;
+  padding-bottom: 45px;
+}
+.c-youshi-row{
+  width: 1160px;
+  margin: auto;
+  margin-top: 15px;
+}
+.c-youshi-title{
+  height: 100px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_title3.png) center center no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.c-youshi .c-item{
+  width: 240px;
+  height: 232px;
+  background: white;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 24px;
+  -webkit-box-shadow: 3px 3px 3px #ddd, -2px -1px 2px #eee;
+  -moz-box-shadow: 3px 3px 3px #ddd, -2px -1px 2px #eee;
+  box-shadow: 3px 3px 3px #ddd, -2px -1px 2px #eee;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.c-youshi .c-item:hover{
+  -webkit-transform: translate(0, -5px);
+  transform: translate(0, -5px);
+}
+.c-youshi .c-item .p1{
+  font-size: 24px;
+  color: #0344ce;
+  line-height: 2;
+  padding-top: 7px;
+}
+.c-youshi .c-item .p2{
+  font-size: 14px;
+  color: #333;
+  line-height: 1.3;
+  padding-top: 3px;
+  height: 2.6em;
+}
+.c-youshi .c-item .p3{
+  padding-top: 12px;
+}
+.c-youshi-logo{
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  display: block;
+}
+.c-youshi-logo-1{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos2.png) 0 0 no-repeat;
+}
+.c-youshi-logo-2{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos2.png) -120px 0 no-repeat;
+}
+.c-youshi-logo-3{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos2.png) -240px 0 no-repeat;
+}
+.c-youshi-logo-4{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos2.png) -360px 0 no-repeat;
+}
+.c-huojia{
+  background: #0344ce;
+  padding: 27px 0;
+}
+.c-huojia .tm-container{
+  width: 1094px;
+}
+.c-huojia .h-item{
+  width: 542px;
+  height: 230px;
+  position: relative;
+}
+.c-huojia .h-item-2{
+  margin-left: 0;
+  margin-right: auto;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_back_4.jpg) 0 0 no-repeat;
+}
+.c-huojia .h-item-3{
+  margin-left: auto;
+  margin-right: 0;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_back_5.jpg) 0 0 no-repeat;
+}
+.c-huojia .h-item1{
+  width: 1094px;
+  height: 250px;
+  margin-bottom: 6px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_back_3.jpg) 0 0 no-repeat;
+}
+.c-huojia .h-singletext{
+  position: absolute;
+  line-height: 50px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 210px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  background: rgba(220, 172, 28, 0.9);
+  margin-top: -25px;
+  margin-left: -105px;
+}
+.c-huojia .h-item1 .h-singletext{
+  width: 310px;
+  margin-left: -155px;
+}
+.c-huojia .h-text{
+  background: rgba(220, 172, 28, 0.9);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 24px;
+}
+.c-huojia .h-item:hover .h-singletext{
+  display: none;
+}
+.c-huojia .h-item:hover .h-text{
+  display: block;
+}
+.c-huojia .h-text .p1{
+  font-size: 30px;
+  line-height: 2;
+  padding-bottom: 7px;
+  border-bottom: 1px solid white;
+  margin-bottom: 16px;
+}
+.c-youshi-title-2{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_title4.png) center center no-repeat;
+}
+.c-liucheng{
+  height: 299px;
+  background: #dcac1c url(//resource.toolmall.com/resource/business/activity/huojia/cang_back_5.png) center center no-repeat;
+}
+.c-liucheng .tm-container{
+  padding-top: 100px;
+}
+.c-liucheng *{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.c-liucheng .l-item{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.l-item .l-img-out{
+  width: 122px;
+  height: 122px;
+  border: 4px solid transparent;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+}
+.l-item:hover .l-img-out{
+  border-color: rgba(255, 255, 255, 0.34);
+}
+.l-item .l-img-in{
+  width: 92px;
+  height: 92px;
+  border: 4px solid white;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+.l-item:hover .l-img-in{
+  background: white;
+}
+.l-item .l-text{
+  margin-top: 15px;
+}
+.l-item .l-item-img{
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) 0 0 no-repeat;
+}
+.l-item  .l-item-img-1{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) 0 0 no-repeat;
+}
+.l-item:hover  .l-item-img-1{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -60px 0 no-repeat;
+}
+.l-item  .l-item-img-2{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -120px 0 no-repeat;
+}
+.l-item:hover  .l-item-img-2{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -180px 0 no-repeat;
+}
+.l-item  .l-item-img-3{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -240px 0 no-repeat;
+}
+.l-item:hover  .l-item-img-3{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -300px 0 no-repeat;
+}
+.l-item  .l-item-img-4{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -360px 0 no-repeat;
+}
+.l-item:hover  .l-item-img-4{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -420px 0 no-repeat;
+}
+.l-item  .l-item-img-5{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -480px 0 no-repeat;
+}
+.l-item:hover  .l-item-img-5{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_logos.png) -540px 0 no-repeat;
+}
+.c-youshi-title-3{
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/cang_title2.png) center center no-repeat;
+}
+.c-anli{
+  background: #f5f5f5;
+}
+.c-anli .wl-menu{
+  color: #333;
+}
+.c-anli .wl-menu-ul li.tm-active{
+  color: #0344ce;
+}
+.c-anli .wl-menu-indicator{
+  background: #0344ce;
+}
+.c-anli  .wl-article-text-h3{
+  color: black;
+  font-size: 20px;
+}
+.wl-article-text .c-english-text{
+  width: 270px;
+  text-align: right;
+  position: absolute;
+  right: 28px;
+  bottom: 10px;
+  line-height: 1.3;
+  color: #dcdcdc;
+  font-size: 24px;
+  z-index: 2;
+}
+.tm-cangchu-main .agv-btm{
+  background: #f4f4f4 url(//resource.toolmall.com/resource/business/activity/huojia/cang_phone.png) 0 0 no-repeat;
+}
+.tm-cangchu-main .agv-btm-out-h{
+  color: #0344ce;
+}
+.c-anli .wl-menu-ul li.tm-bigger.tm-active{
+  font-size: 17px;
+  line-height: 30px;
+}
+.c-top-img1{
+  width: 566px;
+  height: 110px;
+  text-indent: -9999px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -554px;
+  top: 53px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/c_top_1.png) 0 0 no-repeat;
+}
+.c-top-t1, .c-top-t2, .c-top-t3{
+  position: absolute;
+  left: 50%;
+  top: 192px;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+.c-top-t1{
+  width: 231px;
+  height: 25px;
+  margin-left: -548px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/c_top_text1.png) 0 0 no-repeat;
+}
+.c-top-t2{
+  width: 124px;
+  height: 24px;
+  margin-left: -283px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/c_top_text2.png) 0 0 no-repeat;
+}
+.c-top-t3{
+  margin-left: -130px;
+  width: 123px;
+  height: 25px;
+  background: url(//resource.toolmall.com/resource/business/activity/huojia/c_top_text3.png) 0 0 no-repeat;
+}
+
+@-webkit-keyframes hcGoRight {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  100% {
+    -webkit-transform: translate(440px, 0);
+    transform: translate(440px, 0);
+  }
+}
+@keyframes hcGoRight {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  100% {
+    -webkit-transform: translate(440px, 0);
+    transform: translate(440px, 0);
+  }
+}
+.hcGoRight{
+  -webkit-animation-name: hcGoRight;
+  animation-name: hcGoRight;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+.c-prd-img-out{
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  margin: auto;
+}
+.c-prd-img-out>img{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.c-prd-img-out:hover>img{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.agv-btm-out{
+  background: white;
+}
